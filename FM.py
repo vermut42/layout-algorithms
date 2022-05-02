@@ -1,3 +1,8 @@
+#### This script realize Feducci-Mattheises decomposition algorithm ####
+#### Created on Python 3.8.9 / checked on Python 3.10.4
+# v0.1    @ilyaShafeev  / 30 April, 2022 - main algorithm
+# v0.1.1  @vermut42     / 30 April, 2022 - reading config file from command line
+
 from cmath import inf
 import numpy as np
 import argparse
