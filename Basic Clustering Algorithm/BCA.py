@@ -9,8 +9,12 @@ def area (graph_matrix):
         cells_area.append(sum(row))
     return(cells_area)
 
-def get_indices(list, element):
-    return [i for i in range(len(list)) if list[i] == element]
+def get_indices(lst, el):
+    list = []
+    for i in range(len(lst)):
+        if lst[i] == el:
+            list.append(i)
+    return list
 
 
 
