@@ -7,7 +7,7 @@
 
 	01/05/22 : Reading config file from command line was added by @vermut42
 
-	Example:
+	Config file example:
 
 		[ca]=2,4,1,4,5 // list of vertices weight
 		[bf]=0.375 // balance factor
