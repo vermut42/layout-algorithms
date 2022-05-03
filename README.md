@@ -5,7 +5,7 @@
 	
 Write by @ilyaShafeev @ 30/04/22 on Python 3.8.9 (checked on 3.10.4) and realize, suddenly, Fiduccia-Mattheyses algorithm.
 
-Reading config file from command line was added bt vermut42 @ 01/05/22
+Reading config file from command line was added by @vermut42 @ 01/05/22
 
 	Example:
 
