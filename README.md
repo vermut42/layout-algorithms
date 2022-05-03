@@ -3,9 +3,8 @@
 
 1. Fiduccia-Mattheyses.py
 	
-Write by @ilyaShafeev @ 30/04/22 on Python 3.8.9 (checked on 3.10.4) and realize, suddenly, Fiduccia-Mattheyses algorithm.
-
-Reading config file from command line was added by @vermut42 @ 01/05/22
+30/04/22 : Write by @ilyaShafeev on Python 3.8.9 (checked on 3.10.4) and realize, suddenly, Fiduccia-Mattheyses algorithm.
+01/05/22 : Reading config file from command line was added by @vermut42
 
 	Example:
 
@@ -32,7 +31,7 @@ BackLog:
  - h-Metis Algorithm
  - Stockmeyer's Algorithm
  - Force Placement Algorithm
- - Dijkstra's algorithm (+ MST)
+ - Dijkstra's algorithm (with modifications)
  - Lee algorithm (with modifications)
  - Soukup's Algorithm
  - A* Algorithm
@@ -42,10 +41,5 @@ BackLog:
  - Kruskal's Algorithm (MST)
  - RMST
  - I1S / BI1S
- - Shallow Light
- - Left Edge Algorithm
- - YACR2 Algorithm
- - Greedy Channel Routing Algorithm
- - Chameleon Channel Routing Algorithm
- - BEAVER Algorithm
+ - Shallow Light (in progress davidsloun@mail.ru)
  - Kirkpatrick's algorithm
