@@ -3,17 +3,16 @@ import numpy as np
 import argparse
 
 
-def vertices_area (vertices,graph_matrix):
-    v_area = []
-    for v in vertices:
-        vertice = graph_matrix[v]
-        v_area.append(sum(vertice))
-    return(v_area)
+def area (graph_matrix):
+    cells_area = []
+    for row in graph_matrix:
+        cells_area.append(sum(row))
+    return(cells_area)
 
-def get_indices(list, element):
+def get_indices(lst, el):
     list = []
-    for i in range(len(list)):
-        if list[i] == element:
+    for i in range(len(lst)):
+        if lst[i] == el:
             list.append(i)
     return list
 
@@ -52,32 +51,23 @@ if(__name__ == '__main__'):
 
     print(graph_matrix)
 
-    # формирование списка вершин
+    cells_area = area(graph_matrix)
+    print(cells_area)
+    print(cells_area.index(max(cells_area)))
     vertices = []
-    for index in range(len(graph_matrix)):
+    for index in range(1,len(cells_area)+1):
         vertices.append(index)
+    print(vertices)
 
-    # определение площадей всех вершин    
-    v_area = vertices_area(vertices,graph_matrix)
-
-    print(v_area.index(max(v_area)))
-  
-    vertices_run = vertices
-    block = []
-    while len(vertices_run) > 0:
-   
-        if len(block) == 0:
-            v_area = vertices_area(vertices_run,graph_matrix)
-            index_max = v_area.index(max(v_area))
-            block.append(vertices[index_max])
-            vertices_run.pop(index_max)
-        
-            print("Block",block)
-            print("Actual list of vertices",vertices_run)
-        elif len(block) < 3:
-            for vertice in block:
-                print(get_indices(graph_matrix[vertice],1))
-
+    step = 1
+    b = []
+    while len(vertices) > 0:
+        if len(b) == 0:
+            index_max = cells_area.index(max(cells_area))
+        vertices.pop(index_max)
+        b.append(vertices[index_max])
+        print("Block",b)
+        print("Vertices",vertices)
  
 
 
