@@ -3,8 +3,9 @@
 
 1. Fiduccia-Mattheyses.py
 	
-30/04/22 : Write by @ilyaShafeev on Python 3.8.9 (checked on 3.10.4) and realize, suddenly, Fiduccia-Mattheyses algorithm.
-01/05/22 : Reading config file from command line was added by @vermut42
+	30/04/22 : Write by @ilyaShafeev on Python 3.8.9 (checked on 3.10.4) and realize, suddenly, Fiduccia-Mattheyses algorithm.
+
+	01/05/22 : Reading config file from command line was added by @vermut42
 
 	Example:
 
