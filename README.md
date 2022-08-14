@@ -21,6 +21,25 @@
 
 	Command line: Fiduccia-Mattheyses.py -file var01.txt
 
+2. codres.py
+    15/06/22 : Write by shirocov.vladislav2015@yandex.ru on Python 3.10.4 (checked on 3.10.4) and realize, suddenly, Codres clustering algorithm.
+    Config file example:
+
+    python3 -f example_1.txt
+
+    example_1.txt:
+        Вариант 14
+        [[2, 6], [5, 3], [1, 4]]    
+        T = 6
+        S = 7
+        G = {
+            1: {'-1', '5', '4', },
+            2: {'-3', '-2', '6', },
+            3: {'4', '8', '5', },
+            4: {'5', '6', '7', },
+            5: {'8', '7', '-9', '-10', },
+            6: {'6', '-11', },
+        }
 
 BackLog:
  - Graph Constructor (return Adjacency or Incidence matrix with some support information)
